@@ -36,7 +36,7 @@ var boarderCenter={
 		handler: 'addBoder'
 	}]
 };
-
+//至少可以解决输入
 var boarderWest={
 	title:'菜单栏',
 	width:'200',
