@@ -1,8 +1,7 @@
 /**
  * 把元素分开写，有助于代码理解 
  * 
- * 
- * 
+ * 用ssh验证
  */
 
 var boarderNorth={
@@ -18,6 +17,7 @@ var boarderNorth={
 		handler:'logout'
 	}]
 };
+
 
 var boarderSouth={
 	title:'底部栏',
