@@ -1,3 +1,11 @@
+#这是我的extjs项目
+
+2016.8.16
+添加登录功能，布局页面改进
+
+
+---
+#以下是sencha cmd 自动生成的说明文件
 # zhouyao
 
 This folder is primarily a container for the top-level pieces of the application.
