@@ -24,7 +24,8 @@ Ext.define('zhouyao.Application', {
         // If TutorialLoggedIn isn't true, we display the login window,
         // otherwise, we display the main view
         Ext.create({
-            xtype: loggedIn ? 'Extappviewbordermain': 'login'
+            // xtype: loggedIn ? 'Extappviewbordermain': 'login'
+            xtype: 'app-main'
         });
         // Ext.create( {
         //     xtype:'Extappviewbordermain'

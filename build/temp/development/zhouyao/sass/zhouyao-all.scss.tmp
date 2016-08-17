@@ -886,6 +886,9 @@ $include-zhouyao-view-main-list: dynamic(true);;
 $include-zhouyao-view-main-main: dynamic(true);;
 $include-zhouyao-view-main-maincontroller: dynamic(true);;
 $include-zhouyao-view-main-mainmodel: dynamic(true);;
+$include-zhouyao-view-mygrid-mygrid: dynamic(true);;
+$include-zhouyao-view-mygrid-mygridcontroller: dynamic(true);;
+$include-zhouyao-view-mygrid-mygridmodel: dynamic(true);;
 $include-zhouyao-view-windows: dynamic(true);;
 $output-paths: ("path": "../resources");
 
