@@ -92,9 +92,9 @@ Ext.define('zhouyao.view.main.Main', {
     }, {
         title: 'Groups',
         iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            xtype:'Mygrid'
+        }],
     }, {
         title: 'Settings',
         iconCls: 'fa-cog',

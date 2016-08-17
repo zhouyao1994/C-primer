@@ -1,6 +1,7 @@
 
 Ext.define('zhouyao.view.mygrid.Mygrid',{
     extend: 'Ext.panel.Panel',
+    xtype:'Mygrid',
 
     requires: [
         'zhouyao.view.mygrid.MygridController',
@@ -11,6 +12,9 @@ Ext.define('zhouyao.view.mygrid.Mygrid',{
     viewModel: {
         type: 'mygrid-mygrid'
     },
-
-    html: 'Hello, World!!'
+    bind: {
+            // title: 'Hello {name}',
+            html: 'Hello, {firstName}!!'
+    },
+    
 });
