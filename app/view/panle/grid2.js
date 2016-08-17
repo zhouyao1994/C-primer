@@ -4,6 +4,12 @@ Ext.define('User', {
 });
 
 var userStore = Ext.create('Ext.data.Store', {
+    /**
+     * @requires zhouyao.model.User
+     */
+    // requires: [
+    //     'zhouyao.model.User'
+    // ],
     model: 'User',
     data: [
         { name: 'Lisa', email: 'lisa@simpsons.com', phone: '555-111-1224' },
@@ -32,7 +38,7 @@ Ext.define('Ext.view.panle.grid2', {
             text: 'Email Address',
             width: 150,
             dataIndex: 'email',
-            hidden: true
+            hidden: false
         },
         {
             text: 'Phone Number',

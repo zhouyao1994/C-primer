@@ -1,5 +1,6 @@
 Ext.define('zhouyao.model.User', {
     extend: 'Ext.data.Model',
+    alais:'model.user12'
     
     fields: [
         { name: 'name', type: 'auto' },
