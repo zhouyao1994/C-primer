@@ -8,14 +8,15 @@
 Ext.define('zhouyao.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
-
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
 
         'zhouyao.view.main.MainController',
         'zhouyao.view.main.MainModel',
-        'zhouyao.view.main.List'
+        'zhouyao.view.main.List',
+        'zhouyao.view.panle.FirstGidModel',
+        'Ext.view.panle.grid2'
     ],
 
     controller: 'main',
@@ -86,9 +87,9 @@ Ext.define('zhouyao.view.main.Main', {
     }, {
         title: 'Users',
         iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            xtype:'mainlist3'
+        }],
     }, {
         title: 'Groups',
         iconCls: 'fa-users',

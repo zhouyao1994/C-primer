@@ -873,9 +873,11 @@ $include-ext-view-nodecache: dynamic(true);;
 $include-ext-view-table: dynamic(true);;
 $include-ext-view-tablelayout: dynamic(true);;
 $include-ext-view-view: dynamic(true);;
+$include-ext-view-panle-grid2: dynamic(true);;
 $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
+$include-user: dynamic(true);;
 $include-zhouyao-application: dynamic(true);;
 $include-zhouyao-model-user: dynamic(true);;
 $include-zhouyao-store-personnel: dynamic(true);;
@@ -886,7 +888,7 @@ $include-zhouyao-view-main-mainmodel: dynamic(true);;
 $include-zhouyao-view-mygrid-mygrid: dynamic(true);;
 $include-zhouyao-view-mygrid-mygridcontroller: dynamic(true);;
 $include-zhouyao-view-mygrid-mygridmodel: dynamic(true);;
-$include-zhouyao-view-windows: dynamic(true);;
+$include-zhouyao-view-panle-firstgidmodel: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
