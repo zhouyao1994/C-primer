@@ -12,9 +12,16 @@ Ext.define('zhouyao.view.mygrid.Mygrid',{
     viewModel: {
         type: 'mygrid-mygrid'
     },
-    bind: {
-            // title: 'Hello {name}',
-            html: 'Hello, {firstName}!!'
-    },
+    layout: 'form',
+    //制定默认类型，如果不指定，就会被当做panel类型
+    defaultType: 'textfield',
+
+    items: [{
+        fieldLabel: 'First Name',
+        bind: '{firstName}' // uses "test" ViewModel from parent
+    },{
+        fieldLabel: 'Last Name',
+        bind: '{lastName}'
+    }]
     
 });
